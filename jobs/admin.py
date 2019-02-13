@@ -1,3 +1,7 @@
 from django.contrib import admin
+# Adding Jobs to admin portal
+from .models import Job 
 
-# Register your models here.
+
+admin.site.register(Job)
+
